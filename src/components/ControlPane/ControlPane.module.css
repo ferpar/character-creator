@@ -1,9 +1,10 @@
 .controlPane {
-  padding: 24px;
+  padding: 24px 1.5rem;
   /* Optical centering */
   padding-top: 18px;
   background-color: white;
   border-radius: 8px;
+  overflow: auto;
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
@@ -13,9 +14,13 @@
 }
 
 .title {
+  position: sticky;
+  left: 0px;
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+  padding-bottom: 1rem;
+  width: fit-content;
 }
 
 .metadata {

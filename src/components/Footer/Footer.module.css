@@ -6,3 +6,11 @@
   text-align: center;
 }
 
+.footer > a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer > a:hover {
+  text-decoration: none;
+}

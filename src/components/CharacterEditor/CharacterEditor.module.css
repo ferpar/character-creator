@@ -1,9 +1,15 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 .maxWidthWrapper {
+  display: inline-block;
+  width: 65%;
 }
 
 .header {
@@ -24,7 +30,14 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  bottom: 0px;
+  width: calc(0.35*1024px);
+  min-height: 500px;
+  height: 80%;
+  left: 57%;
 }
 
 .controlColumn {
+  width: calc(50/65*100%);
 }
