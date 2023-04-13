@@ -1,4 +1,5 @@
 .characterEditor {
+  position: relative;
   padding-top: 128px;
   padding-bottom: 64px;
   padding-left: 40px;
@@ -31,10 +32,10 @@
 
 .characterWrapper {
   position: fixed;
-  bottom: 0px;
+  top: 15%;
+  bottom: 10%;
   width: calc(0.35*1024px);
   min-height: 500px;
-  height: 80%;
   left: 57%;
 }
 

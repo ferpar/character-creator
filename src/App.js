@@ -13,7 +13,6 @@ function App() {
           "background-color": "hsl(195, 20%, 86%)",
           width: "100%",
           height: "40%",
-          "z-index": "-1",
         }}
       ></div>
       <CharacterEditor />
